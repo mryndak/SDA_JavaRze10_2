@@ -1,6 +1,13 @@
 spring:
   profiles:
     active: dev
+#APPLICATION
+application:
+  weather:
+    apiUrl: http://api.weatherapi.com/v1
+    apiCurrentPath: /current.json?key={key}&q={q}
+    apiKey: d8ff71348e7c42d6918182014200708
+
 # ACTUATOR INFO
 info:
   app:
