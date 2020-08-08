@@ -1,6 +1,18 @@
 spring:
   profiles:
     active: dev
+  # EMAIL
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    username: sda@gmail.com
+    password: sda
+    protocol: smtp
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
 #APPLICATION
 application:
   weather:
